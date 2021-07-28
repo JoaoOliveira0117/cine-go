@@ -9,3 +9,8 @@ body {
   background-color: #FF9191;
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.size{
+  width: 100%;
+  margin: 0;
+}

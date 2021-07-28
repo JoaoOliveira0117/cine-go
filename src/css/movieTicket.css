@@ -1,0 +1,111 @@
+.card-container{
+    max-width: fit-content;
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.card-left,.card-right{
+    position: relative;
+}
+
+.desconto,.info-filme, .info-sessao{
+    position: absolute;
+}
+
+.desconto{
+    top: 0;
+    left: 25%;
+}
+
+.desconto>h1{
+    margin: 0;
+    max-width: 10rem;
+    font-size: 4rem;
+}
+
+.info-filme{
+    display: inline-flex;
+    bottom: 0.8rem;
+    left: 2rem;
+}
+
+.info-filme>div>h1{
+    font-size: 1.2rem;
+}
+
+.classificacao{
+    background-color: #17AF2B;
+    margin-right: 2.5rem;
+    padding: 0.1rem 1.4rem;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.genero{
+    background-color:#095AE5;
+    margin-left: 2.5rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.info-sessao{
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.info-sessao>h2{
+    font-size: 1.5rem;
+    max-width: 8rem;
+    margin: 0.5rem 0;
+}
+
+.info-sessao>span::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.big-card-container{
+    max-width: fit-content;
+    position: relative;
+}
+
+.big-card-container>div>div>img{
+    display: flex;
+}
+
+.big-card-dark{
+}
+
+.big-desconto, .big-info-sessao{
+    position: absolute;
+    z-index: 10;
+}
+
+.big-desconto{
+    top: 0;
+    left: 15%;
+}
+
+.big-desconto>h1{
+    margin: 0 4rem;
+    font-size: 4rem;
+}
+
+.big-info-sessao{
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.big-info-sessao>h2{
+    font-size: 1.5rem;
+    max-width: 8rem;
+    margin: 0.5rem 0;
+}
+
+.big-info-sessao>span::after{
+    content: "\a";
+    white-space: pre;
+}
